@@ -82,6 +82,12 @@ public class Persona implements Comparable<Persona> {
         }
     }
 
+    /**
+     *Compara dos personas en función de su NIF.
+     *
+     * @param a La persona a comparar.
+     * @return {@code true} si las personas tienen el mismo NIF, {@code false} en caso contrario.
+     */
     public boolean equals(Persona a) {
         if (a == null) {
             return false;

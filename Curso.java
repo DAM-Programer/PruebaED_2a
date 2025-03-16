@@ -35,6 +35,11 @@ public class Curso {
         return s;
     }
 
+    /**
+     * Añade un alumno al curso.
+     *
+     * @param p El alumno que será añadido.
+     */
     public void aniadirAlumno(Persona p) {
         listaAlumnos.add(p);
     }

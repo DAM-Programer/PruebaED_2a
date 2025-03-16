@@ -19,6 +19,12 @@ public class Nif {
                 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L',
                 'C', 'K', 'E'};
 
+    /**
+     *Calcula la letra correspondiente a un número de NIF.
+     *
+     * @param numero El número del NIF.
+     * @return La letra asociada al número del NIF.
+     */
     private static char calcularLetra(int numero) {
         return LETRAS[numero % 23];
     }

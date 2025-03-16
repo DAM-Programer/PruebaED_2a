@@ -105,6 +105,13 @@ public class Persona implements Comparable<Persona> {
         return Objects.equals(this.nif, other.nif);
     }
 
+    /**
+     *Compara dos personas para determinar su orden.
+     *El criterio de ordenamiento es el valor del NIF.
+     *
+     * @param o La persona a comparar.
+     * @return Un valor negativo, cero o positivo dependiendo del orden relativo de los NIF.
+     */
     @Override
     public int compareTo(Persona o) {
         return this.nif.toString().compareTo(o.nif.toString());

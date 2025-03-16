@@ -89,6 +89,13 @@ public class Persona implements Comparable<Persona> {
         return a.nif.toString().equals(this.nif.toString());
     }
 
+    /**
+     *Compara este objeto con otro para determinar si son iguales.
+     *Dos personas son iguales si sus NIF son iguales.
+     *
+     * @param obj El objeto a comparar.
+     * @return {@code true} si los objetos son iguales, {@code false} en caso contrario.
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {

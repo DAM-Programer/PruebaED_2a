@@ -2,10 +2,6 @@ package instituto;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.TreeSet;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 public class CursoTest {
     @Test
     void testAniadirAlumno() {
